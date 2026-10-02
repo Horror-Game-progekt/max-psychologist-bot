@@ -1,1 +1,39 @@
+/* ---------- Форма ---------- */
+.contact-form {
+    max-width: 520px;
+    margin-top: 16px;
+}
 
+.contact-form label {
+    display: block;
+    margin-bottom: 16px;
+    font-size: 15px;
+    color: var(--text);
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px 14px;
+    margin-top: 6px;
+    border: 1px solid #cfdde9;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: inherit;
+    background: #ffffff;
+    color: var(--text);
+    resize: vertical;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px rgba(107, 163, 214, 0.15);
+}
+
+.form-note {
+    font-size: 13px;
+    color: var(--text-soft);
+    margin-top: 12px;
+}
