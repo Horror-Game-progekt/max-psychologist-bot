@@ -1,1 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Психолог — Не один</title>
+    <meta name="description" content="Кислухина Ольга Сергеевна — детский и подростковый психолог. Запись на консультацию.">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+</head>
+<body>
 
+    <header class="header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">🛡️ Не один</a>
+            <button class="burger" id="burger" aria-label="Меню">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav" id="nav">
+                <a href="bullying.html">Что такое буллинг</a>
+                <a href="help-me.html">Меня травят</a>
+                <a href="help-friend.html">Травят друга</a>
+                <a href="am-bully.html">Я сам задираю</a>
+                <a href="parents.html">Родителям</a>
+                <a href="psychologist.html">Психолог</a>
+                <a href="contacts.html">Контакты</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="page">
+        <div class="container">
+            <a href="index.html" class="back-link">← На главную</a>
+
+            <h1>👤 Кислухина Ольга Сергеевна</h1>
+
+            <p>
+                Детский и подростковый психолог.
+                Работает с буллингом, травлей, тревожностью и отношениями в школе.
+            </p>
+
+            <h2>Специализация</h2>
+            <ul>
+                <li>травля и буллинг (жертва, агрессор, свидетели);</li>
+                <li>тревожность, страхи, неуверенность;</li>
+                <li>отношения со сверстниками и в семье;</li>
+                <li>адаптация и школьные трудности.</li>
+            </ul>
+
+            <h2>Подход</h2>
+            <p>
+                Бережный, без давления и осуждения.
+                Всё, что говорится на встрече, остаётся между вами.
+            </p>
+
+            <h2>Записаться на консультацию</h2>
+
+            <form class="contact-form" id="contactForm" action="mailto:example@mail.ru" method="post" enctype="text/plain">
+                <label>
+                    Ваше имя
+                    <input type="text" name="name" required>
+                </label>
+
+                <label>
+                    Контакт для связи (телефон / email / мессенджер)
+                    <input type="text" name="contact" required>
+                </label>
+
+                <label>
+                    Кратко опишите ситуацию
+                    <textarea name="message" rows="5" required></textarea>
+                </label>
+
+                <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                <p class="form-note">
+                    Нажимая «Отправить», откроется ваш почтовый клиент с готовым письмом.
+                </p>
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 Не один. Информационная поддержка по теме буллинга.</p>
+            <p class="footer-note">Сайт не заменяет помощь психолога. Если есть угроза жизни — звони 112.</p>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
