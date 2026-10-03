@@ -104,7 +104,7 @@ body {
 /* ---------- Главный блок ---------- */
 .hero {
     padding: 80px 0;
-    background: linear-gradient(135deg, #eaf4fc 0%, #f4f8fb 100%);
+    background: #ffffff;
 }
 
 .hero-inner {
