@@ -10,14 +10,14 @@
 }
 
 :root {
-    --bg: #f4f8fb;
+    --bg: #fdf6f2;
     --card-bg: #ffffff;
-    --text: #2b3a4a;
-    --text-soft: #5a6b7c;
-    --accent: #6ba3d6;
-    --accent-soft: #a8cbe8;
-    --green: #9ed4b3;
-    --shadow: 0 4px 16px rgba(107, 163, 214, 0.12);
+    --text: #3a2f2e;
+    --text-soft: #6b5a58;
+    --accent: #e8a89a;
+    --accent-soft: #f3c9be;
+    --green: #a8c8e0;
+    --shadow: 0 4px 16px rgba(232, 168, 154, 0.15);
     --radius: 16px;
 }
 
