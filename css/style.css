@@ -375,4 +375,55 @@ body {
     .nav.open {
         display: flex;
     }
+   /* ---------- Блок «Помни» ---------- */
+   .remember {
+       padding: 60px 0;
+       background: #eaf4fc;
+   }
+   
+   .remember-grid {
+       display: grid;
+       grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+       gap: 24px;
+       margin-top: 32px;
+   }
+   
+   .remember-item {
+       text-align: center;
+       padding: 24px 16px;
+   }
+   
+   .remember-icon {
+       font-size: 40px;
+       margin-bottom: 12px;
+   }
+   
+   .remember-item p {
+       font-size: 17px;
+       color: var(--text);
+       font-weight: 500;
+   }
+   
+   /* ---------- Блок «Не нашёл ответ?» ---------- */
+   .cta {
+       padding: 80px 0;
+       text-align: center;
+   }
+   
+   .cta h2 {
+       font-size: 32px;
+       margin-bottom: 16px;
+       color: var(--text);
+   }
+   
+   .cta p {
+       font-size: 18px;
+       color: var(--text-soft);
+       margin-bottom: 28px;
+   }
+   
+   /* ---------- Финальный блок — отступ снизу ---------- */
+   .final {
+       padding: 40px 0 80px;
+   }
 }
