@@ -459,4 +459,14 @@ body {
        height: 32px;
        color: var(--accent);
    }
+    /* ---------- Настройка картинок на страницах ---------- */
+    .page-img {
+        width: 100%;
+        max-width: 400px; 
+        height: auto;
+        border-radius: 16px;
+        margin-bottom: 24px;
+        display: block;
+        box-shadow: 0 4px 16px rgba(107, 163, 214, 0.15);
+    }
 }
