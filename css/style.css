@@ -1,8 +1,3 @@
-/* ============================================
-   Не один — стили сайта
-   ============================================ */
-
-/* ---------- Базовые настройки ---------- */
 * {
     margin: 0;
     padding: 0;
@@ -425,5 +420,43 @@ body {
    /* ---------- Финальный блок — отступ снизу ---------- */
    .final {
        padding: 40px 0 80px;
+   }
+   /* ---------- Настройка SVG-иконок (Lucide) ---------- */
+   .logo {
+       display: flex;
+       align-items: center;
+       gap: 8px;
+   }
+   
+   .logo svg {
+       width: 24px;
+       height: 24px;
+       color: var(--accent); /* Иконка щита будет в цвет акцента */
+   }
+   
+   .card-icon {
+       display: flex;
+       align-items: center;
+       justify-content: flex-start;
+       margin-bottom: 20px;
+   }
+   
+   .card-icon svg {
+       width: 36px;
+       height: 36px;
+       color: var(--accent); /* Иконки в карточках будут мягкого синего цвета */
+       stroke-width: 1.5; /* Сделаем линии чуть тоньше и изящнее */
+   }
+   
+   .remember-icon {
+       display: flex;
+       justify-content: center;
+       margin-bottom: 16px;
+   }
+   
+   .remember-icon svg {
+       width: 32px;
+       height: 32px;
+       color: var(--accent);
    }
 }
