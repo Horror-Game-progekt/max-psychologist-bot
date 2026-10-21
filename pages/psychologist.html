@@ -3,21 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Психолог — Стоп-буллинг</title>
+    <title>Психолог — Стоп-булинг</title>
     <meta name="description" content="Кислухина Ольга Сергеевна — детский и подростковый психолог. Запись на консультацию.">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-
     <header class="header">
         <div class="container header-inner">
-            <a href="../index.html" class="logo">Стоп-буллинг</a>
-
-            <button class="burger" id="burger" aria-label="Меню">
-                <span></span><span></span><span></span>
-            </button>
-
+            <a href="../index.html" class="logo"><i data-lucide="shield-check"></i> Стоп-булинг</a>
+            <button class="burger" id="burger" aria-label="Меню"><span></span><span></span><span></span></button>
             <nav class="nav" id="nav">
                 <a href="bullying.html">Что такое буллинг</a>
                 <a href="help-me.html">Меня травят</a>
@@ -32,16 +27,14 @@
 
     <section class="page">
         <div class="container">
-
             <a href="../index.html" class="back-link">← На главную</a>
-
-            <h1>👤 Кислухина Ольга Сергеевна</h1>
-
-            <p>
-                Детский и подростковый психолог.
-                Работает с буллингом, травлей, тревожностью и отношениями в школе.
-            </p>
-
+            <h1 style="display:flex; align-items:center; gap:12px; margin-bottom:24px;">
+                <i data-lucide="user"></i> Кислухина Ольга Сергеевна
+            </h1>
+            <img src="../images/psychologist.png" alt="Психолог" class="page-img" onerror="this.style.display='none'">
+            
+            <p>Детский и подростковый психолог. Работает с буллингом, травлей, тревожностью и отношениями в школе.</p>
+            
             <h2>Специализация</h2>
             <ul>
                 <li>травля и буллинг (жертва, агрессор, свидетели);</li>
@@ -51,56 +44,28 @@
             </ul>
 
             <h2>Подход</h2>
-            <p>
-                Бережный, без давления и осуждения.
-                Всё, что говорится на встрече, остаётся между вами.
-            </p>
-
-            <h2>Формат и контакты</h2>
-            <p>
-                Формат: <em>онлайн</em><br>
-                Телефон: <em>[впиши телефон]</em><br>
-                Мессенджер: <em>Макс</em>
-            </p>
+            <p>Бережный, без давления и осуждения. Всё, что говорится на встрече, остаётся между вами.</p>
 
             <h2>Записаться на консультацию</h2>
-
-            <form class="contact-form" id="contactForm" action="https://formspree.io/f/xbgdrpvj" method="POST">
-                <label>
-                    Ваше имя
-                    <input type="text" name="name" required>
-                </label>
-
-                <label>
-                    Контакт для связи (телефон / email / мессенджер)
-                    <input type="text" name="contact" required>
-                </label>
-
-                <label>
-                    Кратко опишите ситуацию
-                    <textarea name="message" rows="5" required></textarea>
-                </label>
-
+            <!-- Форма (не забудь поменять email в action) -->
+            <form class="contact-form" id="contactForm" action="mailto:example@mail.ru" method="post" enctype="text/plain">
+                <label>Ваше имя<input type="text" name="name" required></label>
+                <label>Контакт для связи (телефон / email / мессенджер)<input type="text" name="contact" required></label>
+                <label>Кратко опишите ситуацию<textarea name="message" rows="5" required></textarea></label>
                 <button type="submit" class="btn btn-primary">Отправить заявку</button>
-
-                <p class="form-note">
-                    Нажимая «Отправить», откроется ваш почтовый клиент с готовым письмом.
-                    Если он не открылся — напишите нам напрямую: <em>[впиши email]</em>
-                </p>
+                <p class="form-note">Нажимая «Отправить», откроется ваш почтовый клиент с готовым письмом.</p>
             </form>
-
         </div>
     </section>
 
     <footer class="footer">
         <div class="container">
-            <p>© 2026 Стоп-буллинг. Информационная поддержка по теме буллинга.</p>
-            <p class="footer-note">
-                Сайт не заменяет помощь психолога. Если есть угроза жизни — звони 112.
-            </p>
+            <p>© 2026 Стоп-булинг. Информационная поддержка по теме буллинга.</p>
+            <p class="footer-note">Сайт не заменяет помощь психолога. Если есть угроза жизни — звони 112.</p>
         </div>
     </footer>
-
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>lucide.createIcons();</script>
     <script src="../js/script.js"></script>
 </body>
 </html>
